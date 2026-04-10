@@ -2,7 +2,7 @@
 
 ## Vim Teacher Diagram
 
-![Vim Teacher Diagram]([REDACTED])
+![Vim Teacher Diagram](public/vim_teacher.svg)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
