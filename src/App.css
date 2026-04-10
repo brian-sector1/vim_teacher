@@ -25,6 +25,21 @@
   font-size: 0.95rem;
 }
 
+.mode {
+  margin: 0.5rem 0 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.mode-insert {
+  color: #065f46;
+}
+
+.mode-normal {
+  color: #7c2d12;
+}
+
 .controls {
   display: flex;
   gap: 0.6rem;
@@ -68,6 +83,26 @@
   border-color: #2563eb;
 }
 
+.editor-normal {
+  caret-color: transparent;
+}
+
+.editor-normal::selection {
+  background: #f59e0b;
+  color: #111827;
+}
+
+.editor-normal::-moz-selection {
+  background: #f59e0b;
+  color: #111827;
+}
+
 .hidden-file-input {
   display: none;
+}
+
+.vim-help {
+  margin: 0;
+  text-align: left;
+  font-size: 0.9rem;
 }
